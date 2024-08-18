@@ -152,8 +152,8 @@ blockquote {
 }
 
 .head__gallery_pic1 {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/head/head-pic1.jpg);*/
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    url(../images/head/head-pic1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -161,8 +161,8 @@ blockquote {
 }
 
 .head__gallery_pic2 {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/head/head-pic2.jpg); */
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    url(../images/head/head-pic2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -170,8 +170,8 @@ blockquote {
 }
 
 .head__gallery_pic3 {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/head/head-pic3.jpg); */
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    url(../images/head/head-pic3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -179,8 +179,8 @@ blockquote {
 }
 
 .head__gallery_pic4 {
-  /*background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/head/head-pic4.jpg);*/
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    url(../images/head/head-pic4.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -209,4 +209,10 @@ blockquote {
 
 .icons__img {
   margin: 0 6px 0 0;
+}
+
+/* content */
+
+.content {
+  display: flex;
 }
