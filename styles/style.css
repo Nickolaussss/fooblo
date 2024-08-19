@@ -7,7 +7,6 @@
 body {
   width: 1440px;
   margin: 0;
-  border: 1px solid red;
 }
 
 h1,
@@ -620,6 +619,7 @@ blockquote {
 .recipes {
   display: flex;
   padding: 0 135px;
+  margin: 0 0 100px;
 }
 
 .latest-recipes {
@@ -799,4 +799,271 @@ blockquote {
   font-size: 14px;
   line-height: 14px;
   color: rgba(45, 45, 45, 0.6);
+}
+
+/* instagram */
+
+.instagram {
+  display: flex;
+  margin: 0 0 100px;
+}
+
+.instagram__box {
+  width: 288px;
+  height: 255px;
+}
+
+.instagram__box1 {
+  background-image: url(../images/instagram/instagram-pic1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.instagram__box2 {
+  background-image: url(../images/instagram/instagram-pic2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.instagram__box3 {
+  background-image: url(../images/instagram/instagram-pic3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram__box4 {
+  background-image: url(../images/instagram/instagram-pic4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.instagram__box5 {
+  background-image: url(../images/instagram/instagram-pic5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* follow */
+
+.follow {
+  text-decoration: none;
+}
+
+.follow__content {
+  width: 138px;
+  height: 138px;
+  border-radius: 100%;
+  background-color: rgba(254, 74, 81, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow__title {
+  font-family: "Lato", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffff;
+  margin: 0 0 4px;
+}
+
+.follow__container {
+  display: flex;
+}
+
+.follow__img {
+  object-fit: none;
+  object-position: center;
+}
+
+.follow__subtitle {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 0 0 0 5px;
+}
+
+/* bottom */
+
+.bottom {
+  display: flex;
+  padding: 0 135px;
+  margin: 0 0 100px;
+}
+
+.bottom__title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #2d2d2d;
+  margin: 0 0 15px;
+}
+
+.bottom__text {
+  width: 270px;
+  font-family: "Lato", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 26px;
+  color: #2d2d2d;
+}
+
+.bottom__archives {
+  margin: 0 205px 0 30px;
+}
+
+.bottom__archives-list {
+  list-style: none;
+  position: relative;
+}
+
+.bottom__archives-item {
+  text-align: left;
+
+  &:not(:last-of-type) {
+    margin: 0 0 15px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    margin: 7px 0 0 -19px;
+    width: 8px;
+    height: 8px;
+    background-color: #fe4a51;
+    border-radius: 100%;
+    display: flex;
+  }
+}
+
+.bottom__archives-link {
+  text-decoration: none;
+  font-family: "Lato", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: rgba(45, 45, 45, 0.6);
+}
+
+.bottom__recipes {
+  margin: 0 176px 0 0;
+}
+
+.bottom__recipes-list {
+  list-style: none;
+  position: relative;
+}
+
+.bottom__recipes-item {
+  text-align: left;
+  white-space: nowrap;
+  padding: 0 0 0 19px;
+
+  &:not(:last-of-type) {
+    margin: 0 0 15px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    margin: 7px 0 0 -19px;
+    width: 8px;
+    height: 8px;
+    background-color: #fe4a51;
+    border-radius: 100%;
+    display: flex;
+  }
+}
+
+.bottom__recipes-link {
+  text-decoration: none;
+  font-family: "Lato", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: rgba(45, 45, 45, 0.6);
+}
+
+.bottom__newsletter {
+  width: 270px;
+}
+
+.bottom__newsletter-text {
+  font-family: "Lato", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 26px;
+  color: #2d2d2d;
+}
+
+.bottom__input {
+  font-family: "Lato", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #2d2d2d;
+  background-color: #dedada;
+  border: none;
+  padding: 6px 17px;
+  width: 177px;
+  height: 33px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.bottom__btn {
+  font-family: "Lato", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #fe4a51;
+  border: 0;
+  padding: 6px 12px;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  right: 4px;
+  margin: 4px 0 0;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2d2d2d;
+}
+
+.footer__text {
+  text-align: center;
+  font-family: "Lato", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #ffffff;
+  padding: 25px 0 23px 0;
 }
