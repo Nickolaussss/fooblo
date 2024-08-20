@@ -134,6 +134,10 @@ blockquote {
   margin: 33px 0 0;
   border: none;
   cursor: pointer;
+
+  &:hover {
+    background-color: #f3444a;
+  }
 }
 
 .head__gallery-all {
@@ -581,6 +585,10 @@ blockquote {
   color: #ffffff;
   cursor: pointer;
   margin: 0 0 25px;
+
+  &:hover {
+    background-color: #f3444a;
+  }
 }
 
 /* pages */
@@ -746,12 +754,14 @@ blockquote {
   padding: 27px 0 25px;
 }
 
+.recipes__tranding-link {
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
 .recipes__tranding-container {
   display: flex;
-
-  &:not(:last-of-type) {
-    margin: 0 0 10px;
-  }
+  margin: 0 0 10px;
 }
 
 .recipes__tranding-img {
@@ -866,6 +876,10 @@ blockquote {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  &:hover {
+    background-color: #f3444a;
+  }
 }
 
 .follow__title {
@@ -1049,6 +1063,10 @@ blockquote {
   top: 0;
   right: 4px;
   margin: 4px 0 0;
+
+  &:hover {
+    background-color: #f3444a;
+  }
 }
 
 /* footer */
