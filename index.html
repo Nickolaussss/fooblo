@@ -48,6 +48,7 @@
       <form action="#" class="header__form">
         <input
           type="search"
+          maxlength="100"
           placeholder="Hit enter to search"
           class="header__search"
         />
@@ -90,7 +91,6 @@
           </aside>
         </article>
       </section>
-
       <section class="content">
         <article class="content__article">
           <h2 class="content__article-title">Most Popular Recipes</h2>
@@ -363,16 +363,19 @@
             <fieldset class="content__aside-form-container">
               <input
                 type="email"
-                name="email"
+                name="email-first"
+                maxlength="50"
+                required
                 placeholder="Your email address"
                 class="content__aside-email"
               />
-              <button class="content__aside-btn">Subscribe</button>
+              <button type="submit" class="content__aside-btn">
+                Subscribe
+              </button>
             </fieldset>
           </form>
         </aside>
       </section>
-
       <section class="recipes">
         <div class="latest-recipes">
           <h2 class="recipes__title">Latest Recipes</h2>
@@ -710,7 +713,6 @@
           </a>
         </aside>
       </section>
-
       <section class="instagram">
         <div class="instagram__box instagram__box1"></div>
         <div class="instagram__box instagram__box2"></div>
@@ -732,7 +734,6 @@
         <div class="instagram__box instagram__box4"></div>
         <div class="instagram__box instagram__box5"></div>
       </section>
-
       <section class="bottom">
         <div class="bottom__about">
           <h2 class="bottom__title">About</h2>
@@ -778,6 +779,8 @@
           <form action="#" class="bottom__form">
             <input
               type="email"
+              name="email-second"
+              required
               placeholder="Your email address"
               class="bottom__input"
             />
@@ -786,7 +789,6 @@
         </div>
       </section>
     </main>
-
     <footer class="footer">
       <p class="footer__text">Copyright 2024. All Rights Reserved</p>
     </footer>
